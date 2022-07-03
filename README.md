@@ -1,9 +1,11 @@
 ## Trabajo práctico final de la asignatura DCI ##
 Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripción:  XXXXCOMPLETARXXXX
+* Autor: Jordán Joan Emmanuel
+* Título corto del trabajo:  Adaptador LCD i2c para Displays
+* Descripción:  Este trabajo consiste en el diseño de una placa electrónica para control de Displays Alfanuméricos desde microcontrolador
+* Mediante interfaz LCD-i2c. La placa utiliza como integrado principal el PCF8574, el cual traduce la comunicación i2c con el microcontrolador
+* a puerto paralelo para el Display, el cual puede ser 16x02, 20x4, 40x2, etc.
 
 
 ## Licencia de este trabajo ##
