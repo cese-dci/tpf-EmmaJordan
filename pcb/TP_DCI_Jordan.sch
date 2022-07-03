@@ -1,18 +1,18 @@
 EESchema Schematic File Version 4
-LIBS:PCB_LCD-cache
+LIBS:TP_DCI_Jordan-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "Adaptador LCD-i2c para Displays Alfanuméricos"
+Date "2022-07-03"
+Rev "1.0"
 Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment1 "Autor: Jordán Joan Emmanuel"
+Comment2 "Materia:  Diseño de Circuitos Impresos"
+Comment3 "Carrera de Especialización en Sistemas Embebidos"
+Comment4 "Facultad de Ingeniería de la Universidad de Buenos Aires"
 $EndDescr
 $Comp
 L Device:R_POT_US RV?
@@ -81,10 +81,10 @@ F 3 "~" H 2390 2580 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #GND?
+L power:GND #GND0101
 U 1 1 6070C733
 P 3640 5205
-F 0 "#GND?" H 3640 4955 50  0001 C CNN
+F 0 "#GND0101" H 3640 4955 50  0001 C CNN
 F 1 "GND" H 3728 5168 50  0000 L CNN
 F 2 "" H 3640 5205 50  0001 C CNN
 F 3 "" H 3640 5205 50  0001 C CNN
@@ -154,10 +154,10 @@ Vin
 NoConn ~ 4140 4405
 NoConn ~ -1100 4200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 60881173
 P 4400 4260
-F 0 "#PWR?" H 4400 4010 50  0001 C CNN
+F 0 "#PWR0101" H 4400 4010 50  0001 C CNN
 F 1 "GND" H 4540 4215 50  0000 C CNN
 F 2 "" H 4400 4260 50  0001 C CNN
 F 3 "" H 4400 4260 50  0001 C CNN
@@ -177,10 +177,10 @@ R-W
 Text Label 4140 4305 0    39   ~ 8
 EN
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 60953F2C
 P 1255 4675
-F 0 "#PWR?" H 1255 4425 50  0001 C CNN
+F 0 "#PWR0102" H 1255 4425 50  0001 C CNN
 F 1 "GND" H 1255 4530 50  0000 C CNN
 F 2 "" H 1255 4675 50  0001 C CNN
 F 3 "" H 1255 4675 50  0001 C CNN
@@ -194,10 +194,10 @@ Wire Wire Line
 Wire Wire Line
 	3140 4105 3100 4105
 $Comp
-L power:VDD #PWR?
+L power:VDD #PWR0103
 U 1 1 609BF41E
 P 5270 2535
-F 0 "#PWR?" H 5270 2385 50  0001 C CNN
+F 0 "#PWR0103" H 5270 2385 50  0001 C CNN
 F 1 "VDD" H 5175 2590 50  0000 C CNN
 F 2 "" H 5270 2535 50  0001 C CNN
 F 3 "" H 5270 2535 50  0001 C CNN
@@ -207,10 +207,10 @@ $EndComp
 Wire Wire Line
 	5270 2535 5270 2570
 $Comp
-L power:GND #GND?
+L power:GND #GND0102
 U 1 1 609CBD66
 P 5270 3140
-F 0 "#GND?" H 5270 2890 50  0001 C CNN
+F 0 "#GND0102" H 5270 2890 50  0001 C CNN
 F 1 "GND" H 5358 3103 50  0000 L CNN
 F 2 "" H 5270 3140 50  0001 C CNN
 F 3 "" H 5270 3140 50  0001 C CNN
@@ -220,10 +220,10 @@ $EndComp
 Wire Wire Line
 	3465 2780 3665 2780
 $Comp
-L power:VDD #PWR?
+L power:VDD #PWR0104
 U 1 1 60A0623E
 P 3665 2715
-F 0 "#PWR?" H 3665 2565 50  0001 C CNN
+F 0 "#PWR0104" H 3665 2565 50  0001 C CNN
 F 1 "VDD" H 3785 2735 50  0000 C CNN
 F 2 "" H 3665 2715 50  0001 C CNN
 F 3 "" H 3665 2715 50  0001 C CNN
@@ -240,10 +240,10 @@ Wire Wire Line
 	2390 2340 2390 2395
 Connection ~ 2390 2395
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 60816DAF
 P 3375 3145
-F 0 "#PWR?" H 3375 2895 50  0001 C CNN
+F 0 "#PWR0105" H 3375 2895 50  0001 C CNN
 F 1 "GND" H 3510 3095 50  0000 C CNN
 F 2 "" H 3375 3145 50  0001 C CNN
 F 3 "" H 3375 3145 50  0001 C CNN
@@ -294,10 +294,10 @@ F 3 "~" H 4400 4065 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR?
+L power:VDD #PWR0106
 U 1 1 609EC6D6
 P 3640 3735
-F 0 "#PWR?" H 3640 3585 50  0001 C CNN
+F 0 "#PWR0106" H 3640 3585 50  0001 C CNN
 F 1 "VDD" H 3515 3770 50  0000 C CNN
 F 2 "" H 3640 3735 50  0001 C CNN
 F 3 "" H 3640 3735 50  0001 C CNN
@@ -348,10 +348,10 @@ VSS
 Text Notes 5800 4200 0    39   ~ 8
 VDD
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0107
 U 1 1 609AE205
 P 5455 4125
-F 0 "#PWR?" H 5455 3875 50  0001 C CNN
+F 0 "#PWR0107" H 5455 3875 50  0001 C CNN
 F 1 "GND" H 5315 4115 50  0000 C CNN
 F 2 "" H 5455 4125 50  0001 C CNN
 F 3 "" H 5455 4125 50  0001 C CNN
@@ -373,10 +373,10 @@ R-W
 Text Label 5585 4580 2    39   ~ 8
 EN
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0108
 U 1 1 60724D0A
 P 5475 4865
-F 0 "#PWR?" H 5475 4615 50  0001 C CNN
+F 0 "#PWR0108" H 5475 4615 50  0001 C CNN
 F 1 "GND" H 5340 4810 50  0000 C CNN
 F 2 "" H 5475 4865 50  0001 C CNN
 F 3 "" H 5475 4865 50  0001 C CNN
@@ -390,17 +390,6 @@ Wire Wire Line
 Wire Wire Line
 	5585 4680 5585 4780
 Connection ~ 5585 4780
-$Comp
-L PCB_LCD-rescue:Conn_01x16_Male-copia-miConector J?
-U 1 1 60A7CF24
-P 5785 4580
-F 0 "J?" H 5760 5475 50  0000 C CNN
-F 1 "Display" H 5750 5390 50  0000 C CNN
-F 2 "miConector:Conector PinHEeader_1x16P2.54 corrido" H 5785 4580 50  0001 C CNN
-F 3 "~" H 5785 4580 50  0001 C CNN
-	1    5785 4580
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 60771045
@@ -436,16 +425,11 @@ Wire Wire Line
 Connection ~ 5270 3090
 Wire Wire Line
 	5270 3090 5270 3140
-Wire Wire Line
-	5585 4780 5585 4880
 Text Notes 5505 3575 0    50   ~ 10
 Display
 Wire Wire Line
 	5520 2720 5755 2720
 Connection ~ 5520 2720
-Wire Wire Line
-	5585 4980 5585 4880
-Connection ~ 5585 4880
 Text Notes 1470 2470 0    50   ~ 10
 Entrada
 Text Notes 3130 2470 0    50   ~ 10
@@ -466,10 +450,10 @@ Wire Wire Line
 Wire Wire Line
 	5535 3840 5535 4180
 $Comp
-L power:VDD #PWR?
+L power:VDD #PWR0109
 U 1 1 6099C042
 P 5535 3840
-F 0 "#PWR?" H 5535 3690 50  0001 C CNN
+F 0 "#PWR0109" H 5535 3690 50  0001 C CNN
 F 1 "VDD" H 5440 3970 50  0000 C CNN
 F 2 "" H 5535 3840 50  0001 C CNN
 F 3 "" H 5535 3840 50  0001 C CNN
@@ -550,10 +534,10 @@ Wire Wire Line
 Wire Wire Line
 	2025 4605 2025 4315
 $Comp
-L power:VDD #PWR?
+L power:VDD #PWR0110
 U 1 1 62BEB29E
 P 2285 3925
-F 0 "#PWR?" H 2285 3775 50  0001 C CNN
+F 0 "#PWR0110" H 2285 3775 50  0001 C CNN
 F 1 "VDD" H 2160 3960 50  0000 C CNN
 F 2 "" H 2285 3925 50  0001 C CNN
 F 3 "" H 2285 3925 50  0001 C CNN
@@ -612,10 +596,10 @@ Wire Wire Line
 	1255 4405 1300 4405
 Connection ~ 1255 4505
 $Comp
-L power:GND #GND?
+L power:GND #GND0103
 U 1 1 60987354
 P 1475 3015
-F 0 "#GND?" H 1475 2765 50  0001 C CNN
+F 0 "#GND0103" H 1475 2765 50  0001 C CNN
 F 1 "GND" H 1265 3010 50  0000 L CNN
 F 2 "" H 1475 3015 50  0001 C CNN
 F 3 "" H 1475 3015 50  0001 C CNN
@@ -634,4 +618,56 @@ Text Label 2800 4205 2    50   ~ 10
 SDA
 Text Label 2800 4105 2    50   ~ 10
 SCL
+Wire Wire Line
+	5000 5480 5030 5480
+Text Label 5000 5480 2    50   ~ 10
+Vin
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 62C3BED3
+P 5230 5480
+F 0 "JP?" H 5230 5715 50  0000 C CNN
+F 1 "+Led" H 5230 5624 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5230 5480 50  0001 C CNN
+F 3 "~" H 5230 5480 50  0001 C CNN
+	1    5230 5480
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5582 5480 5430 5480
+Wire Wire Line
+	5585 4980 5585 4880
+Wire Wire Line
+	5585 4780 5585 4880
+Connection ~ 5585 4880
+$Comp
+L TP_DCI_Jordan-rescue:Conn_01x16_Male-copia-miConector-PCB_LCD-rescue J?
+U 1 1 60A7CF24
+P 5785 4580
+F 0 "J?" H 5760 5475 50  0000 C CNN
+F 1 "Display" H 5750 5390 50  0000 C CNN
+F 2 "miConector:Conector PinHEeader_1x16P2.54 corrido" H 5785 4580 50  0001 C CNN
+F 3 "~" H 5785 4580 50  0001 C CNN
+	1    5785 4580
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62C42C72
+P 5512 5638
+F 0 "#PWR?" H 5512 5388 50  0001 C CNN
+F 1 "GND" H 5517 5465 50  0000 C CNN
+F 2 "" H 5512 5638 50  0001 C CNN
+F 3 "" H 5512 5638 50  0001 C CNN
+	1    5512 5638
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5583 5580 5512 5580
+Wire Wire Line
+	5512 5580 5512 5638
+Text Notes 5816 5509 0    39   ~ 8
+A
+Text Notes 5813 5609 0    39   ~ 8
+K
 $EndSCHEMATC

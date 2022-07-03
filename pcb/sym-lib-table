@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name TP_DCI_Jordan-rescue)(type Legacy)(uri ${KIPRJMOD}/TP_DCI_Jordan-rescue.lib)(options "")(descr ""))
+)
