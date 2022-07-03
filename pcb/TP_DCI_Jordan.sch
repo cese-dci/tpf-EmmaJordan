@@ -1,0 +1,637 @@
+EESchema Schematic File Version 4
+LIBS:PCB_LCD-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_POT_US RV?
+U 1 1 606F83D1
+P 5270 2720
+F 0 "RV?" H 5202 2766 50  0000 R CNN
+F 1 "5K" H 5202 2675 50  0000 R CNN
+F 2 "miPotenciometro_RV09:miPote10k_3362P" H 5270 2720 50  0001 C CNN
+F 3 "~" H 5270 2720 50  0001 C CNN
+	1    5270 2720
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 606FC2E1
+P 2565 2930
+F 0 "D?" V 2519 3009 50  0000 L CNN
+F 1 "5v6" V 2610 3009 50  0000 L CNN
+F 2 "miDiodo:miZener" H 2565 2930 50  0001 C CNN
+F 3 "~" H 2565 2930 50  0001 C CNN
+	1    2565 2930
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 606FDAF6
+P 2965 2930
+F 0 "C?" H 3083 2976 50  0000 L CNN
+F 1 "220uF/16V" H 3083 2885 50  0000 L CNN
+F 2 "miCapacitor_THT:Electrolitico_10uF" H 3003 2780 50  0001 C CNN
+F 3 "~" H 2965 2930 50  0001 C CNN
+	1    2965 2930
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60706A50
+P 4300 2945
+F 0 "C?" H 4415 2991 50  0000 L CNN
+F 1 "0.1uF/16V" H 4415 2900 50  0000 L CNN
+F 2 "miCapacitor_THT:Lenteja_Ceramica" H 4338 2795 50  0001 C CNN
+F 3 "~" H 4300 2945 50  0001 C CNN
+	1    4300 2945
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60707A73
+P 2390 2895
+F 0 "D?" V 2425 3065 50  0000 R CNN
+F 1 "LED" V 2320 3095 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm_Clear" H 2390 2895 50  0001 C CNN
+F 3 "~" H 2390 2895 50  0001 C CNN
+	1    2390 2895
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 607087CD
+P 2390 2580
+F 0 "R?" H 2200 2615 50  0000 L CNN
+F 1 "2k2" H 2190 2525 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2320 2580 50  0001 C CNN
+F 3 "~" H 2390 2580 50  0001 C CNN
+	1    2390 2580
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 6070C733
+P 3640 5205
+F 0 "#GND?" H 3640 4955 50  0001 C CNN
+F 1 "GND" H 3728 5168 50  0000 L CNN
+F 2 "" H 3640 5205 50  0001 C CNN
+F 3 "" H 3640 5205 50  0001 C CNN
+	1    3640 5205
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2390 2730 2390 2745
+$Comp
+L Device:L L?
+U 1 1 60710F6C
+P 3315 2780
+F 0 "L?" V 3505 2780 50  0000 C CNN
+F 1 "470uH" V 3414 2780 50  0000 C CNN
+F 2 "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P7.62mm_Horizontal_Vishay_IM-1" H 3315 2780 50  0001 C CNN
+F 3 "~" H 3315 2780 50  0001 C CNN
+	1    3315 2780
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3665 2780
+Wire Wire Line
+	3165 2780 2965 2780
+Wire Wire Line
+	2565 2780 2965 2780
+Connection ~ 2965 2780
+Wire Wire Line
+	2565 2780 2565 2395
+Connection ~ 2565 2780
+$Comp
+L Device:R R?
+U 1 1 6073AF47
+P 2950 4205
+F 0 "R?" V 2860 4215 50  0000 C CNN
+F 1 "100" V 2790 4215 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2880 4205 50  0001 C CNN
+F 3 "~" H 2950 4205 50  0001 C CNN
+	1    2950 4205
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6073C403
+P 2950 4105
+F 0 "R?" V 3105 4105 50  0000 C CNN
+F 1 "100" V 3035 4105 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2880 4105 50  0001 C CNN
+F 3 "~" H 2950 4105 50  0001 C CNN
+	1    2950 4105
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3140 4905
+$Comp
+L Device:CP C?
+U 1 1 60705391
+P 3665 2930
+F 0 "C?" H 3783 2968 50  0000 L CNN
+F 1 "100uF/16V" H 3783 2893 50  0000 L CNN
+F 2 "miCapacitor_THT:Electrolitico_10uF" H 3703 2780 50  0001 C CNN
+F 3 "~" H 3665 2930 50  0001 C CNN
+	1    3665 2930
+	1    0    0    -1  
+$EndComp
+Text Notes 5040 2400 0    50   ~ 10
+Contraste
+Text Label 2390 2340 0    50   ~ 10
+Vin
+NoConn ~ 4140 4405
+NoConn ~ -1100 4200
+$Comp
+L power:GND #PWR?
+U 1 1 60881173
+P 4400 4260
+F 0 "#PWR?" H 4400 4010 50  0001 C CNN
+F 1 "GND" H 4540 4215 50  0000 C CNN
+F 2 "" H 4400 4260 50  0001 C CNN
+F 3 "" H 4400 4260 50  0001 C CNN
+	1    4400 4260
+	1    0    0    -1  
+$EndComp
+Text Label 4140 4505 0    39   ~ 8
+D4
+Text Label 4140 4605 0    39   ~ 8
+D5
+Text Label 4140 4705 0    39   ~ 8
+D6
+Text Label 4140 4805 0    39   ~ 8
+D7
+Text Label 4140 4205 0    39   ~ 8
+R-W
+Text Label 4140 4305 0    39   ~ 8
+EN
+$Comp
+L power:GND #PWR?
+U 1 1 60953F2C
+P 1255 4675
+F 0 "#PWR?" H 1255 4425 50  0001 C CNN
+F 1 "GND" H 1255 4530 50  0000 C CNN
+F 2 "" H 1255 4675 50  0001 C CNN
+F 3 "" H 1255 4675 50  0001 C CNN
+	1    1255 4675
+	1    0    0    -1  
+$EndComp
+Text Label 4140 4105 0    39   ~ 8
+RS
+Wire Wire Line
+	3100 4205 3140 4205
+Wire Wire Line
+	3140 4105 3100 4105
+$Comp
+L power:VDD #PWR?
+U 1 1 609BF41E
+P 5270 2535
+F 0 "#PWR?" H 5270 2385 50  0001 C CNN
+F 1 "VDD" H 5175 2590 50  0000 C CNN
+F 2 "" H 5270 2535 50  0001 C CNN
+F 3 "" H 5270 2535 50  0001 C CNN
+	1    5270 2535
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5270 2535 5270 2570
+$Comp
+L power:GND #GND?
+U 1 1 609CBD66
+P 5270 3140
+F 0 "#GND?" H 5270 2890 50  0001 C CNN
+F 1 "GND" H 5358 3103 50  0000 L CNN
+F 2 "" H 5270 3140 50  0001 C CNN
+F 3 "" H 5270 3140 50  0001 C CNN
+	1    5270 3140
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3465 2780 3665 2780
+$Comp
+L power:VDD #PWR?
+U 1 1 60A0623E
+P 3665 2715
+F 0 "#PWR?" H 3665 2565 50  0001 C CNN
+F 1 "VDD" H 3785 2735 50  0000 C CNN
+F 2 "" H 3665 2715 50  0001 C CNN
+F 3 "" H 3665 2715 50  0001 C CNN
+	1    3665 2715
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3665 2715 3665 2780
+Wire Wire Line
+	2390 2430 2390 2395
+Wire Wire Line
+	2390 2395 2565 2395
+Wire Wire Line
+	2390 2340 2390 2395
+Connection ~ 2390 2395
+$Comp
+L power:GND #PWR?
+U 1 1 60816DAF
+P 3375 3145
+F 0 "#PWR?" H 3375 2895 50  0001 C CNN
+F 1 "GND" H 3510 3095 50  0000 C CNN
+F 2 "" H 3375 3145 50  0001 C CNN
+F 3 "" H 3375 3145 50  0001 C CNN
+	1    3375 3145
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2390 3045 2390 3110
+Wire Wire Line
+	2390 3110 2565 3110
+Wire Wire Line
+	3665 3080 3665 3110
+Connection ~ 3665 3110
+Wire Wire Line
+	2965 3080 2965 3110
+Connection ~ 2965 3110
+Wire Wire Line
+	2565 3080 2565 3110
+Connection ~ 2565 3110
+Wire Wire Line
+	2565 3110 2965 3110
+Wire Wire Line
+	2965 3110 3375 3110
+Wire Wire Line
+	3375 3145 3375 3110
+Connection ~ 3375 3110
+Wire Wire Line
+	3375 3110 3665 3110
+Text Label 1520 2670 2    50   ~ 10
+Vin
+Wire Wire Line
+	4300 3095 4300 3110
+Wire Wire Line
+	3665 3110 4300 3110
+Wire Wire Line
+	4300 2795 4300 2780
+Wire Wire Line
+	4300 2780 3665 2780
+$Comp
+L Device:C C?
+U 1 1 606C9E1F
+P 4400 4065
+F 0 "C?" H 4510 4070 50  0000 L CNN
+F 1 "10nF/16V" H 4405 3975 50  0000 L CNN
+F 2 "miCapacitor_THT:Lenteja_Ceramica" H 4438 3915 50  0001 C CNN
+F 3 "~" H 4400 4065 50  0001 C CNN
+	1    4400 4065
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 609EC6D6
+P 3640 3735
+F 0 "#PWR?" H 3640 3585 50  0001 C CNN
+F 1 "VDD" H 3515 3770 50  0000 C CNN
+F 2 "" H 3640 3735 50  0001 C CNN
+F 3 "" H 3640 3735 50  0001 C CNN
+	1    3640 3735
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_Expansion:PCF8574 U?
+U 1 1 606C553F
+P 3640 4505
+F 0 "U?" H 3335 5100 50  0000 C CNN
+F 1 "PCF8574" H 3830 5105 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 3640 4505 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf" H 3640 4505 50  0001 C CNN
+	1    3640 4505
+	1    0    0    -1  
+$EndComp
+Text Notes 5805 4795 0    39   ~ 8
+D1
+Text Notes 5805 4895 0    39   ~ 8
+D2
+Text Notes 5800 4290 0    39   ~ 8
+V0
+Text Notes 5800 4385 0    39   ~ 8
+RS
+Text Notes 5795 4490 0    39   ~ 8
+R/W
+Text Notes 5820 4595 0    39   ~ 8
+E
+Text Notes 5805 4700 0    39   ~ 8
+D0\n
+Text Notes 5805 5000 0    39   ~ 8
+D3
+Text Notes 5805 5105 0    39   ~ 8
+D4
+Text Notes 5805 5200 0    39   ~ 8
+D5
+Text Notes 5800 5300 0    39   ~ 8
+D6
+Text Notes 5800 5405 0    39   ~ 8
+D7
+Text Notes 5805 4005 0    39   ~ 8
+A
+Text Notes 5800 3910 0    39   ~ 8
+K
+Text Notes 5800 4105 0    39   ~ 8
+VSS
+Text Notes 5800 4200 0    39   ~ 8
+VDD
+$Comp
+L power:GND #PWR?
+U 1 1 609AE205
+P 5455 4125
+F 0 "#PWR?" H 5455 3875 50  0001 C CNN
+F 1 "GND" H 5315 4115 50  0000 C CNN
+F 2 "" H 5455 4125 50  0001 C CNN
+F 3 "" H 5455 4125 50  0001 C CNN
+	1    5455 4125
+	1    0    0    -1  
+$EndComp
+Text Label 5585 5080 2    39   ~ 8
+D4
+Text Label 5585 5180 2    39   ~ 8
+D5
+Text Label 5585 5280 2    39   ~ 8
+D6
+Text Label 5585 5380 2    39   ~ 8
+D7
+Text Label 5585 4380 2    39   ~ 8
+RS
+Text Label 5585 4480 2    39   ~ 8
+R-W
+Text Label 5585 4580 2    39   ~ 8
+EN
+$Comp
+L power:GND #PWR?
+U 1 1 60724D0A
+P 5475 4865
+F 0 "#PWR?" H 5475 4615 50  0001 C CNN
+F 1 "GND" H 5340 4810 50  0000 C CNN
+F 2 "" H 5475 4865 50  0001 C CNN
+F 3 "" H 5475 4865 50  0001 C CNN
+	1    5475 4865
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5475 4780 5475 4865
+Wire Wire Line
+	5475 4780 5585 4780
+Wire Wire Line
+	5585 4680 5585 4780
+Connection ~ 5585 4780
+$Comp
+L PCB_LCD-rescue:Conn_01x16_Male-copia-miConector J?
+U 1 1 60A7CF24
+P 5785 4580
+F 0 "J?" H 5760 5475 50  0000 C CNN
+F 1 "Display" H 5750 5390 50  0000 C CNN
+F 2 "miConector:Conector PinHEeader_1x16P2.54 corrido" H 5785 4580 50  0001 C CNN
+F 3 "~" H 5785 4580 50  0001 C CNN
+	1    5785 4580
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 60771045
+P 1720 2770
+F 0 "J?" H 1800 2762 50  0000 L CNN
+F 1 "MICRO" H 1590 2970 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_4-G_1x04_P5.00mm_Vertical" H 1720 2770 50  0001 C CNN
+F 3 "~" H 1720 2770 50  0001 C CNN
+	1    1720 2770
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 609CA175
+P 5520 2915
+F 0 "C?" H 5635 2961 50  0000 L CNN
+F 1 "0.1uF/16V" H 5525 2825 50  0000 L CNN
+F 2 "miCapacitor_THT:Lenteja_Ceramica" H 5558 2765 50  0001 C CNN
+F 3 "~" H 5520 2915 50  0001 C CNN
+	1    5520 2915
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5520 2720 5520 2765
+Wire Wire Line
+	5420 2720 5520 2720
+Wire Wire Line
+	5520 3065 5520 3090
+Wire Wire Line
+	5270 3090 5520 3090
+Wire Wire Line
+	5270 2870 5270 3090
+Connection ~ 5270 3090
+Wire Wire Line
+	5270 3090 5270 3140
+Wire Wire Line
+	5585 4780 5585 4880
+Text Notes 5505 3575 0    50   ~ 10
+Display
+Wire Wire Line
+	5520 2720 5755 2720
+Connection ~ 5520 2720
+Wire Wire Line
+	5585 4980 5585 4880
+Connection ~ 5585 4880
+Text Notes 1470 2470 0    50   ~ 10
+Entrada
+Text Notes 3130 2470 0    50   ~ 10
+Filtro PI
+Text Notes 2700 3795 0    50   ~ 10
+PCF8574
+Wire Wire Line
+	5455 3880 5585 3880
+Connection ~ 5455 4080
+Wire Wire Line
+	5455 4080 5585 4080
+Wire Wire Line
+	5455 4080 5455 4125
+Wire Wire Line
+	5455 4080 5455 3880
+Wire Wire Line
+	5585 4180 5535 4180
+Wire Wire Line
+	5535 3840 5535 4180
+$Comp
+L power:VDD #PWR?
+U 1 1 6099C042
+P 5535 3840
+F 0 "#PWR?" H 5535 3690 50  0001 C CNN
+F 1 "VDD" H 5440 3970 50  0000 C CNN
+F 2 "" H 5535 3840 50  0001 C CNN
+F 3 "" H 5535 3840 50  0001 C CNN
+	1    5535 3840
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4990 3980 5020 3980
+Text Label 4990 3980 2    50   ~ 10
+Vin
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 61E9B54D
+P 5220 3980
+F 0 "JP?" H 5220 4215 50  0000 C CNN
+F 1 "+Led" H 5220 4124 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5220 3980 50  0001 C CNN
+F 3 "~" H 5220 3980 50  0001 C CNN
+	1    5220 3980
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5420 3980 5585 3980
+$Comp
+L Switch:SW_DIP_x03 SW?
+U 1 1 62BC725B
+P 1600 4605
+F 0 "SW?" H 1600 5072 50  0000 C CNN
+F 1 "SW_DIP_x03" H 1600 4981 50  0000 C CNN
+F 2 "" H 1600 4605 50  0001 C CNN
+F 3 "~" H 1600 4605 50  0001 C CNN
+	1    1600 4605
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62BCA7E0
+P 2540 4170
+F 0 "R?" H 2665 4130 50  0000 C CNN
+F 1 "10k" H 2665 4205 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2470 4170 50  0001 C CNN
+F 3 "~" H 2540 4170 50  0001 C CNN
+	1    2540 4170
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3140 4405 2540 4405
+Wire Wire Line
+	2540 4405 2540 4320
+$Comp
+L Device:R R?
+U 1 1 62BE374F
+P 2285 4165
+F 0 "R?" H 2410 4125 50  0000 C CNN
+F 1 "10k" H 2410 4200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2215 4165 50  0001 C CNN
+F 3 "~" H 2285 4165 50  0001 C CNN
+	1    2285 4165
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62BE55E5
+P 2025 4165
+F 0 "R?" H 2150 4125 50  0000 C CNN
+F 1 "10k" H 2150 4200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1955 4165 50  0001 C CNN
+F 3 "~" H 2025 4165 50  0001 C CNN
+	1    2025 4165
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3140 4505 2285 4505
+Wire Wire Line
+	2285 4505 2285 4315
+Wire Wire Line
+	3140 4605 2025 4605
+Wire Wire Line
+	2025 4605 2025 4315
+$Comp
+L power:VDD #PWR?
+U 1 1 62BEB29E
+P 2285 3925
+F 0 "#PWR?" H 2285 3775 50  0001 C CNN
+F 1 "VDD" H 2160 3960 50  0000 C CNN
+F 2 "" H 2285 3925 50  0001 C CNN
+F 3 "" H 2285 3925 50  0001 C CNN
+	1    2285 3925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2025 4015 2025 3970
+Wire Wire Line
+	2025 3970 2285 3970
+Wire Wire Line
+	2540 3970 2540 4020
+Wire Wire Line
+	2285 4015 2285 3970
+Connection ~ 2285 3970
+Wire Wire Line
+	2285 3970 2540 3970
+Wire Wire Line
+	2285 3925 2285 3970
+Wire Wire Line
+	1900 4405 2540 4405
+Connection ~ 2540 4405
+Wire Wire Line
+	1900 4505 2285 4505
+Connection ~ 2285 4505
+Wire Wire Line
+	1900 4605 2025 4605
+Connection ~ 2025 4605
+Wire Wire Line
+	1255 4605 1255 4675
+Wire Wire Line
+	1300 4505 1255 4505
+Wire Wire Line
+	1255 4505 1255 4605
+Connection ~ 1255 4605
+Wire Wire Line
+	1255 4605 1300 4605
+Text Label 5585 4280 2    39   ~ 8
+V0
+Text Label 5755 2720 0    39   ~ 8
+V0
+Wire Wire Line
+	3640 3770 4400 3770
+Wire Wire Line
+	4400 3770 4400 3915
+Wire Wire Line
+	3640 3770 3640 3805
+Wire Wire Line
+	3640 3735 3640 3770
+Connection ~ 3640 3770
+Wire Wire Line
+	4400 4215 4400 4260
+Wire Wire Line
+	1255 4505 1255 4405
+Wire Wire Line
+	1255 4405 1300 4405
+Connection ~ 1255 4505
+$Comp
+L power:GND #GND?
+U 1 1 60987354
+P 1475 3015
+F 0 "#GND?" H 1475 2765 50  0001 C CNN
+F 1 "GND" H 1265 3010 50  0000 L CNN
+F 2 "" H 1475 3015 50  0001 C CNN
+F 3 "" H 1475 3015 50  0001 C CNN
+	1    1475 3015
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1520 2970 1475 2970
+Wire Wire Line
+	1475 2970 1475 3015
+Text Label 1520 2770 2    50   ~ 10
+SDA
+Text Label 1520 2870 2    50   ~ 10
+SCL
+Text Label 2800 4205 2    50   ~ 10
+SDA
+Text Label 2800 4105 2    50   ~ 10
+SCL
+$EndSCHEMATC
