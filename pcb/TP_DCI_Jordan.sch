@@ -581,7 +581,7 @@ U 1 1 60A7CF24
 P 7165 4070
 F 0 "J2" H 7140 4965 50  0000 C CNN
 F 1 "Display" H 7130 4880 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 7165 4070 50  0001 C CNN
+F 2 "miConector:LCD_16x2_dosTipos" H 7165 4070 50  0001 C CNN
 F 3 "~" H 7165 4070 50  0001 C CNN
 	1    7165 4070
 	-1   0    0    -1  
