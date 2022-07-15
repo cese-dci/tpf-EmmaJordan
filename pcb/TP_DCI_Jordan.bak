@@ -15,32 +15,32 @@ Comment3 "Carrera de Especialización en Sistemas Embebidos"
 Comment4 "Facultad de Ingeniería de la Universidad de Buenos Aires"
 $EndDescr
 $Comp
-L Device:R_POT_US RV?
+L Device:R_POT_US RV1
 U 1 1 606F83D1
-P 6960 2540
-F 0 "RV?" H 6892 2586 50  0000 R CNN
-F 1 "10k" H 6892 2495 50  0000 R CNN
-F 2 "miPotenciometro_RV09:miPote10k_3362P" H 6960 2540 50  0001 C CNN
-F 3 "~" H 6960 2540 50  0001 C CNN
-	1    6960 2540
+P 6850 2280
+F 0 "RV1" H 6782 2326 50  0000 R CNN
+F 1 "10k" H 6782 2235 50  0000 R CNN
+F 2 "miPotenciometro_RV09:miPote10k_3362P" H 6850 2280 50  0001 C CNN
+F 3 "~" H 6850 2280 50  0001 C CNN
+	1    6850 2280
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:D_Zener D?
+L Device:D_Zener D2
 U 1 1 606FC2E1
 P 4295 2750
-F 0 "D?" V 4249 2829 50  0000 L CNN
-F 1 "5v6" V 4340 2829 50  0000 L CNN
+F 0 "D2" V 4249 2829 50  0000 L CNN
+F 1 "5v" V 4340 2829 50  0000 L CNN
 F 2 "miDiodo:miZener" H 4295 2750 50  0001 C CNN
 F 3 "~" H 4295 2750 50  0001 C CNN
 	1    4295 2750
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP C?
+L Device:CP C1
 U 1 1 606FDAF6
 P 4695 2750
-F 0 "C?" H 4813 2796 50  0000 L CNN
+F 0 "C1" H 4813 2796 50  0000 L CNN
 F 1 "220uF/16V" H 4813 2705 50  0000 L CNN
 F 2 "miCapacitor_THT:Electrolitico_10uF" H 4733 2600 50  0001 C CNN
 F 3 "~" H 4695 2750 50  0001 C CNN
@@ -48,10 +48,10 @@ F 3 "~" H 4695 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C3
 U 1 1 60706A50
 P 6030 2765
-F 0 "C?" H 6145 2811 50  0000 L CNN
+F 0 "C3" H 6145 2811 50  0000 L CNN
 F 1 "0.1uF/16V" H 6145 2720 50  0000 L CNN
 F 2 "miCapacitor_THT:Lenteja_Ceramica" H 6068 2615 50  0001 C CNN
 F 3 "~" H 6030 2765 50  0001 C CNN
@@ -59,10 +59,10 @@ F 3 "~" H 6030 2765 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D1
 U 1 1 60707A73
 P 4120 2715
-F 0 "D?" V 4155 2885 50  0000 R CNN
+F 0 "D1" V 4155 2885 50  0000 R CNN
 F 1 "LED" V 4050 2915 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm_Clear" H 4120 2715 50  0001 C CNN
 F 3 "~" H 4120 2715 50  0001 C CNN
@@ -70,10 +70,10 @@ F 3 "~" H 4120 2715 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R3
 U 1 1 607087CD
 P 4120 2400
-F 0 "R?" H 3930 2435 50  0000 L CNN
+F 0 "R3" H 3930 2435 50  0000 L CNN
 F 1 "2k2" H 3920 2345 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4050 2400 50  0001 C CNN
 F 3 "~" H 4120 2400 50  0001 C CNN
@@ -94,10 +94,10 @@ $EndComp
 Wire Wire Line
 	4120 2550 4120 2565
 $Comp
-L Device:L L?
+L Device:L L1
 U 1 1 60710F6C
 P 5045 2600
-F 0 "L?" V 5235 2600 50  0000 C CNN
+F 0 "L1" V 5235 2600 50  0000 C CNN
 F 1 "47uH" V 5144 2600 50  0000 C CNN
 F 2 "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P7.62mm_Horizontal_Vishay_IM-1" H 5045 2600 50  0001 C CNN
 F 3 "~" H 5045 2600 50  0001 C CNN
@@ -114,10 +114,10 @@ Wire Wire Line
 	4295 2600 4295 2215
 Connection ~ 4295 2600
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 6073AF47
 P 4540 4175
-F 0 "R?" V 4450 4185 50  0000 C CNN
+F 0 "R2" V 4450 4185 50  0000 C CNN
 F 1 "100" V 4380 4185 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4470 4175 50  0001 C CNN
 F 3 "~" H 4540 4175 50  0001 C CNN
@@ -125,10 +125,10 @@ F 3 "~" H 4540 4175 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 6073C403
 P 4540 4075
-F 0 "R?" V 4695 4075 50  0000 C CNN
+F 0 "R1" V 4695 4075 50  0000 C CNN
 F 1 "100" V 4625 4075 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4470 4075 50  0001 C CNN
 F 3 "~" H 4540 4075 50  0001 C CNN
@@ -137,17 +137,17 @@ F 3 "~" H 4540 4075 50  0001 C CNN
 $EndComp
 NoConn ~ 4730 4875
 $Comp
-L Device:CP C?
+L Device:CP C2
 U 1 1 60705391
 P 5395 2750
-F 0 "C?" H 5513 2788 50  0000 L CNN
+F 0 "C2" H 5513 2788 50  0000 L CNN
 F 1 "100uF/16V" H 5513 2713 50  0000 L CNN
 F 2 "miCapacitor_THT:Electrolitico_10uF" H 5433 2600 50  0001 C CNN
 F 3 "~" H 5395 2750 50  0001 C CNN
 	1    5395 2750
 	1    0    0    -1  
 $EndComp
-Text Notes 6730 2220 0    50   ~ 10
+Text Notes 6620 1960 0    50   ~ 10
 Contraste
 Text Label 4120 2160 0    50   ~ 10
 Vin
@@ -196,25 +196,25 @@ Wire Wire Line
 $Comp
 L power:VDD #PWR0103
 U 1 1 609BF41E
-P 6960 2355
-F 0 "#PWR0103" H 6960 2205 50  0001 C CNN
-F 1 "VDD" H 6865 2410 50  0000 C CNN
-F 2 "" H 6960 2355 50  0001 C CNN
-F 3 "" H 6960 2355 50  0001 C CNN
-	1    6960 2355
+P 6850 2095
+F 0 "#PWR0103" H 6850 1945 50  0001 C CNN
+F 1 "VDD" H 6755 2150 50  0000 C CNN
+F 2 "" H 6850 2095 50  0001 C CNN
+F 3 "" H 6850 2095 50  0001 C CNN
+	1    6850 2095
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6960 2355 6960 2390
+	6850 2095 6850 2130
 $Comp
 L power:GND #GND0102
 U 1 1 609CBD66
-P 6960 2960
-F 0 "#GND0102" H 6960 2710 50  0001 C CNN
-F 1 "GND" H 7048 2923 50  0000 L CNN
-F 2 "" H 6960 2960 50  0001 C CNN
-F 3 "" H 6960 2960 50  0001 C CNN
-	1    6960 2960
+P 6850 2700
+F 0 "#GND0102" H 6850 2450 50  0001 C CNN
+F 1 "GND" H 6938 2663 50  0000 L CNN
+F 2 "" H 6850 2700 50  0001 C CNN
+F 3 "" H 6850 2700 50  0001 C CNN
+	1    6850 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -283,10 +283,10 @@ Wire Wire Line
 Wire Wire Line
 	6030 2600 5395 2600
 $Comp
-L Device:C C?
+L Device:C C5
 U 1 1 606C9E1F
 P 5990 4035
-F 0 "C?" H 6100 4040 50  0000 L CNN
+F 0 "C5" H 6100 4040 50  0000 L CNN
 F 1 "10nF/16V" H 5995 3945 50  0000 L CNN
 F 2 "miCapacitor_THT:Lenteja_Ceramica" H 6028 3885 50  0001 C CNN
 F 3 "~" H 5990 4035 50  0001 C CNN
@@ -305,85 +305,85 @@ F 3 "" H 5230 3705 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_Expansion:PCF8574 U?
+L Interface_Expansion:PCF8574 U1
 U 1 1 606C553F
 P 5230 4475
-F 0 "U?" H 4925 5070 50  0000 C CNN
+F 0 "U1" H 4925 5070 50  0000 C CNN
 F 1 "PCF8574" H 5420 5075 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 5230 4475 50  0001 C CNN
+F 2 "miSMD:SOIC127P1030X265-16N" H 5230 4475 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf" H 5230 4475 50  0001 C CNN
 	1    5230 4475
 	1    0    0    -1  
 $EndComp
-Text Notes 7295 4545 0    39   ~ 8
+Text Notes 7185 4285 0    39   ~ 8
 D1
-Text Notes 7295 4645 0    39   ~ 8
+Text Notes 7185 4385 0    39   ~ 8
 D2
-Text Notes 7290 4040 0    39   ~ 8
+Text Notes 7180 3780 0    39   ~ 8
 V0
-Text Notes 7290 4135 0    39   ~ 8
+Text Notes 7180 3875 0    39   ~ 8
 RS
-Text Notes 7285 4240 0    39   ~ 8
+Text Notes 7175 3980 0    39   ~ 8
 R/W
-Text Notes 7310 4345 0    39   ~ 8
+Text Notes 7200 4085 0    39   ~ 8
 E
-Text Notes 7295 4450 0    39   ~ 8
+Text Notes 7185 4190 0    39   ~ 8
 D0\n
-Text Notes 7295 4750 0    39   ~ 8
+Text Notes 7185 4490 0    39   ~ 8
 D3
-Text Notes 7295 4855 0    39   ~ 8
+Text Notes 7185 4595 0    39   ~ 8
 D4
-Text Notes 7295 4950 0    39   ~ 8
+Text Notes 7185 4690 0    39   ~ 8
 D5
-Text Notes 7290 5050 0    39   ~ 8
+Text Notes 7180 4790 0    39   ~ 8
 D6
-Text Notes 7290 5155 0    39   ~ 8
+Text Notes 7180 4895 0    39   ~ 8
 D7
-Text Notes 7295 3755 0    39   ~ 8
+Text Notes 7185 3495 0    39   ~ 8
 A
-Text Notes 7290 3660 0    39   ~ 8
+Text Notes 7180 3400 0    39   ~ 8
 K
-Text Notes 7290 3855 0    39   ~ 8
+Text Notes 7180 3595 0    39   ~ 8
 VSS
-Text Notes 7290 3950 0    39   ~ 8
+Text Notes 7180 3690 0    39   ~ 8
 VDD
-Text Label 7075 4830 2    39   ~ 8
+Text Label 6965 4570 2    39   ~ 8
 D4
-Text Label 7075 4930 2    39   ~ 8
+Text Label 6965 4670 2    39   ~ 8
 D5
-Text Label 7075 5030 2    39   ~ 8
+Text Label 6965 4770 2    39   ~ 8
 D6
-Text Label 7075 5130 2    39   ~ 8
+Text Label 6965 4870 2    39   ~ 8
 D7
-Text Label 7075 4130 2    39   ~ 8
+Text Label 6965 3870 2    39   ~ 8
 RS
-Text Label 7075 4230 2    39   ~ 8
+Text Label 6965 3970 2    39   ~ 8
 R-W
-Text Label 7075 4330 2    39   ~ 8
+Text Label 6965 4070 2    39   ~ 8
 EN
 $Comp
 L power:GND #PWR0108
 U 1 1 60724D0A
-P 6965 4615
-F 0 "#PWR0108" H 6965 4365 50  0001 C CNN
-F 1 "GND" H 6830 4560 50  0000 C CNN
-F 2 "" H 6965 4615 50  0001 C CNN
-F 3 "" H 6965 4615 50  0001 C CNN
-	1    6965 4615
+P 6855 4355
+F 0 "#PWR0108" H 6855 4105 50  0001 C CNN
+F 1 "GND" H 6720 4300 50  0000 C CNN
+F 2 "" H 6855 4355 50  0001 C CNN
+F 3 "" H 6855 4355 50  0001 C CNN
+	1    6855 4355
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6965 4530 6965 4615
+	6855 4270 6855 4355
 Wire Wire Line
-	6965 4530 7075 4530
+	6855 4270 6965 4270
 Wire Wire Line
-	7075 4430 7075 4530
-Connection ~ 7075 4530
+	6965 4170 6965 4270
+Connection ~ 6965 4270
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J1
 U 1 1 60771045
 P 3430 2540
-F 0 "J?" H 3510 2532 50  0000 L CNN
+F 0 "J1" H 3510 2532 50  0000 L CNN
 F 1 "MICRO" H 3300 2740 50  0000 L CNN
 F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_4-G_1x04_P5.00mm_Vertical" H 3430 2540 50  0001 C CNN
 F 3 "~" H 3430 2540 50  0001 C CNN
@@ -391,58 +391,58 @@ F 3 "~" H 3430 2540 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C4
 U 1 1 609CA175
-P 7210 2735
-F 0 "C?" H 7325 2781 50  0000 L CNN
-F 1 "0.1uF/16V" H 7215 2645 50  0000 L CNN
-F 2 "miCapacitor_THT:Lenteja_Ceramica" H 7248 2585 50  0001 C CNN
-F 3 "~" H 7210 2735 50  0001 C CNN
-	1    7210 2735
+P 7100 2475
+F 0 "C4" H 7215 2521 50  0000 L CNN
+F 1 "0.1uF/16V" H 7105 2385 50  0000 L CNN
+F 2 "miCapacitor_THT:Lenteja_Ceramica" H 7138 2325 50  0001 C CNN
+F 3 "~" H 7100 2475 50  0001 C CNN
+	1    7100 2475
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7210 2540 7210 2585
+	7100 2280 7100 2325
 Wire Wire Line
-	7110 2540 7210 2540
+	7000 2280 7100 2280
 Wire Wire Line
-	7210 2885 7210 2910
+	7100 2625 7100 2650
 Wire Wire Line
-	6960 2910 7210 2910
+	6850 2650 7100 2650
 Wire Wire Line
-	6960 2690 6960 2910
-Connection ~ 6960 2910
+	6850 2430 6850 2650
+Connection ~ 6850 2650
 Wire Wire Line
-	6960 2910 6960 2960
-Text Notes 6995 3325 0    50   ~ 10
+	6850 2650 6850 2700
+Text Notes 6885 3065 0    50   ~ 10
 Display
 Wire Wire Line
-	7210 2540 7445 2540
-Connection ~ 7210 2540
+	7100 2280 7335 2280
+Connection ~ 7100 2280
 Text Notes 3180 2240 0    50   ~ 10
 Entrada
 Text Notes 4860 2290 0    50   ~ 10
 Filtro PI
 Text Notes 4055 3755 0    50   ~ 10
 PCF8574
-Text Label 6785 3730 2    50   ~ 10
+Text Label 6675 3470 2    50   ~ 10
 Vin
 $Comp
-L Switch:SW_DIP_x03 SW?
+L Switch:SW_DIP_x03 SW1
 U 1 1 62BC725B
 P 3190 4575
-F 0 "SW?" H 3190 5042 50  0000 C CNN
+F 0 "SW1" H 3190 5042 50  0000 C CNN
 F 1 "SW_DIP_x03" H 3190 4951 50  0000 C CNN
-F 2 "" H 3190 4575 50  0001 C CNN
+F 2 "miConector:DIPSwitch_03" H 3190 4575 50  0001 C CNN
 F 3 "~" H 3190 4575 50  0001 C CNN
 	1    3190 4575
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R6
 U 1 1 62BCA7E0
 P 4130 4140
-F 0 "R?" H 4255 4100 50  0000 C CNN
+F 0 "R6" H 4255 4100 50  0000 C CNN
 F 1 "10k" H 4255 4175 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4060 4140 50  0001 C CNN
 F 3 "~" H 4130 4140 50  0001 C CNN
@@ -454,10 +454,10 @@ Wire Wire Line
 Wire Wire Line
 	4130 4375 4130 4290
 $Comp
-L Device:R R?
+L Device:R R5
 U 1 1 62BE374F
 P 3875 4135
-F 0 "R?" H 4000 4095 50  0000 C CNN
+F 0 "R5" H 4000 4095 50  0000 C CNN
 F 1 "10k" H 4000 4170 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3805 4135 50  0001 C CNN
 F 3 "~" H 3875 4135 50  0001 C CNN
@@ -465,10 +465,10 @@ F 3 "~" H 3875 4135 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R4
 U 1 1 62BE55E5
 P 3615 4135
-F 0 "R?" H 3740 4095 50  0000 C CNN
+F 0 "R4" H 3740 4095 50  0000 C CNN
 F 1 "10k" H 3740 4170 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3545 4135 50  0001 C CNN
 F 3 "~" H 3615 4135 50  0001 C CNN
@@ -525,9 +525,9 @@ Wire Wire Line
 Connection ~ 2845 4575
 Wire Wire Line
 	2845 4575 2890 4575
-Text Label 7075 4030 2    39   ~ 8
+Text Label 6965 3770 2    39   ~ 8
 V0
-Text Label 7445 2540 0    39   ~ 8
+Text Label 7335 2280 0    39   ~ 8
 V0
 Wire Wire Line
 	5230 3740 5990 3740
@@ -568,80 +568,80 @@ Text Label 4390 4175 2    50   ~ 10
 SDA
 Text Label 4390 4075 2    50   ~ 10
 SCL
-Text Label 6970 5230 2    50   ~ 10
+Text Label 6860 4970 2    50   ~ 10
 Vin
 Wire Wire Line
-	7075 4730 7075 4630
+	6965 4470 6965 4370
 Wire Wire Line
-	7075 4530 7075 4630
-Connection ~ 7075 4630
+	6965 4270 6965 4370
+Connection ~ 6965 4370
 $Comp
-L TP_DCI_Jordan-rescue:Conn_01x16_Male-copia-miConector-PCB_LCD-rescue J?
+L TP_DCI_Jordan-rescue:Conn_01x16_Male-copia-miConector-PCB_LCD-rescue J2
 U 1 1 60A7CF24
-P 7275 4330
-F 0 "J?" H 7250 5225 50  0000 C CNN
-F 1 "Display" H 7240 5140 50  0000 C CNN
-F 2 "miConector:Conector PinHEeader_1x16P2.54 corrido" H 7275 4330 50  0001 C CNN
-F 3 "~" H 7275 4330 50  0001 C CNN
-	1    7275 4330
+P 7165 4070
+F 0 "J2" H 7140 4965 50  0000 C CNN
+F 1 "Display" H 7130 4880 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 7165 4070 50  0001 C CNN
+F 3 "~" H 7165 4070 50  0001 C CNN
+	1    7165 4070
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0107
 U 1 1 62C42C72
-P 7002 5388
-F 0 "#PWR?" H 7002 5138 50  0001 C CNN
-F 1 "GND" H 7007 5215 50  0000 C CNN
-F 2 "" H 7002 5388 50  0001 C CNN
-F 3 "" H 7002 5388 50  0001 C CNN
-	1    7002 5388
+P 6892 5128
+F 0 "#PWR0107" H 6892 4878 50  0001 C CNN
+F 1 "GND" H 6897 4955 50  0000 C CNN
+F 2 "" H 6892 5128 50  0001 C CNN
+F 3 "" H 6892 5128 50  0001 C CNN
+	1    6892 5128
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7073 5330 7002 5330
+	6963 5070 6892 5070
 Wire Wire Line
-	7002 5330 7002 5388
-Text Notes 7306 5259 0    39   ~ 8
+	6892 5070 6892 5128
+Text Notes 7196 4999 0    39   ~ 8
 A
-Text Notes 7303 5359 0    39   ~ 8
+Text Notes 7193 5099 0    39   ~ 8
 K
 Wire Wire Line
-	6785 3730 7075 3730
+	6675 3470 6965 3470
 Wire Wire Line
-	6970 5230 7072 5230
+	6860 4970 6962 4970
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0109
 U 1 1 62C74A5E
-P 6905 3975
-F 0 "#PWR?" H 6905 3725 50  0001 C CNN
-F 1 "GND" H 6760 3920 50  0000 C CNN
-F 2 "" H 6905 3975 50  0001 C CNN
-F 3 "" H 6905 3975 50  0001 C CNN
-	1    6905 3975
+P 6795 3715
+F 0 "#PWR0109" H 6795 3465 50  0001 C CNN
+F 1 "GND" H 6650 3660 50  0000 C CNN
+F 2 "" H 6795 3715 50  0001 C CNN
+F 3 "" H 6795 3715 50  0001 C CNN
+	1    6795 3715
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR?
+L power:VDD #PWR0111
 U 1 1 62C7F4AF
-P 6790 3890
-F 0 "#PWR?" H 6790 3740 50  0001 C CNN
-F 1 "VDD" H 6675 3945 50  0000 C CNN
-F 2 "" H 6790 3890 50  0001 C CNN
-F 3 "" H 6790 3890 50  0001 C CNN
-	1    6790 3890
+P 6680 3630
+F 0 "#PWR0111" H 6680 3480 50  0001 C CNN
+F 1 "VDD" H 6565 3685 50  0000 C CNN
+F 2 "" H 6680 3630 50  0001 C CNN
+F 3 "" H 6680 3630 50  0001 C CNN
+	1    6680 3630
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7075 3930 6790 3930
+	6965 3670 6680 3670
 Wire Wire Line
-	6790 3930 6790 3890
+	6680 3670 6680 3630
 Wire Wire Line
-	7075 3830 6905 3830
+	6965 3570 6795 3570
 Wire Wire Line
-	6905 3830 6905 3975
+	6795 3570 6795 3715
 Wire Wire Line
-	7075 3630 6905 3630
+	6965 3370 6795 3370
 Wire Wire Line
-	6905 3630 6905 3830
-Connection ~ 6905 3830
+	6795 3370 6795 3570
+Connection ~ 6795 3570
 $EndSCHEMATC
