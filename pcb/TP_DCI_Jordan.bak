@@ -10,7 +10,7 @@ Date "2022-08-04"
 Rev "1.0"
 Comp ""
 Comment1 "Autor: Jordán Joan Emmanuel"
-Comment2 "Proyecto bajo licencia CERN Open Hardware Licence V2"
+Comment2 "Bajo licencia CERN Open Hardware Licence V2. Basado en réplica LCD-i2c comercial"
 Comment3 "Diseño de Circuitos Impresos - Carrera de Especialización en Sistemas Embebidos"
 Comment4 "Facultad de Ingeniería de la Universidad de Buenos Aires"
 $EndDescr
@@ -597,7 +597,7 @@ L Interface_Expansion:PCF8574 U1
 U 1 1 606C553F
 P 4410 5805
 F 0 "U1" H 4105 6400 50  0000 C CNN
-F 1 "PCF8574" H 4600 6405 50  0000 C CNN
+F 1 "PCF8574" H 4760 5210 50  0000 C CNN
 F 2 "miSMD:SOIC127P1030X265-16N" H 4410 5805 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf" H 4410 5805 50  0001 C CNN
 	1    4410 5805
@@ -752,4 +752,8 @@ Wire Wire Line
 	3980 7150 4300 7150
 Wire Wire Line
 	4300 7150 4300 7100
+Text Notes 6600 5320 0    50   ~ 0
+Se adapta a varios tipos \nde Displays de 16 pines, \nmediante 18 pines de salida.
+Text Notes 2180 6430 0    50   ~ 0
+Eliminación de Rpu y agregado de Rserie,\nrespecto de módulos comerciales.
 $EndSCHEMATC
