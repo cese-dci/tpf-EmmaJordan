@@ -12,11 +12,11 @@
   (page A4 portrait)
   (title_block
     (title "Adaptador LCD-i2c para Displays Alfanuméricos")
-    (date 2022-07-03)
+    (date 2022-08-04)
     (rev 1.0)
     (comment 1 "Autor: Jordán Joan Emmanuel")
-    (comment 2 "Materia: Diseño de Circuitos Impresos")
-    (comment 3 "Carrera de Especialización en Sistemas Embebidos")
+    (comment 2 "Proyecto bajo licencia CERN Open Hardware Licence V2")
+    (comment 3 "Diseño de Circuitos Impresos - Carrera de Especialización en Sistemas Embebidos")
     (comment 4 "Facultad de Ingeniería de la Universidad de Buenos Aires")
   )
 

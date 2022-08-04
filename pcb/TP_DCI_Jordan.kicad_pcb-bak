@@ -927,7 +927,7 @@
     (at 118.2 130.8)
     (descr <b>A6S-3104-H-1</b><br>)
     (path /62BC725B)
-    (fp_text reference SW1 (at -0.1 6.7 180) (layer F.SilkS)
+    (fp_text reference SW1 (at 0 6.7 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_DIP_x03 (at 0 0 180) (layer F.Fab)
