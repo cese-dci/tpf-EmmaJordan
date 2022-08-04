@@ -6,12 +6,12 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 1 1
 Title "Adaptador LCD-i2c para Displays Alfanuméricos"
-Date "2022-07-03"
+Date "2022-08-04"
 Rev "1.0"
 Comp ""
 Comment1 "Autor: Jordán Joan Emmanuel"
-Comment2 "Materia:  Diseño de Circuitos Impresos"
-Comment3 "Carrera de Especialización en Sistemas Embebidos"
+Comment2 "Proyecto bajo licencia CERN Open Hardware Licence V2"
+Comment3 "Diseño de Circuitos Impresos - Carrera de Especialización en Sistemas Embebidos"
 Comment4 "Facultad de Ingeniería de la Universidad de Buenos Aires"
 $EndDescr
 $Comp
