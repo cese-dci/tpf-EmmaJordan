@@ -11,7 +11,7 @@ Rev "1.0"
 Comp ""
 Comment1 "Autor: Jordán Joan Emmanuel"
 Comment2 "Bajo licencia CERN Open Hardware Licence V2. Basado en réplica LCD-i2c comercial"
-Comment3 "Diseño de Circuitos Impresos - Carrera de Especialización en Sistemas Embebidos"
+Comment3 "Diseño de Circuitos Impresos, Carrera de Especialización en Sistemas Embebidos, FIUBA"
 Comment4 "Facultad de Ingeniería de la Universidad de Buenos Aires"
 $EndDescr
 $Comp
@@ -703,55 +703,55 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 62EE33E7
-P 3620 7030
-F 0 "#FLG0101" H 3620 7105 50  0001 C CNN
-F 1 "PWR_FLAG" H 3620 7180 50  0000 C CNN
-F 2 "" H 3620 7030 50  0001 C CNN
-F 3 "~" H 3620 7030 50  0001 C CNN
-	1    3620 7030
+P 3500 6880
+F 0 "#FLG0101" H 3500 6955 50  0001 C CNN
+F 1 "PWR_FLAG" H 3500 7030 50  0000 C CNN
+F 2 "" H 3500 6880 50  0001 C CNN
+F 3 "~" H 3500 6880 50  0001 C CNN
+	1    3500 6880
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #GND0104
 U 1 1 62EE4F9D
-P 3620 7110
-F 0 "#GND0104" H 3620 6860 50  0001 C CNN
-F 1 "GND" H 3540 6960 50  0000 L CNN
-F 2 "" H 3620 7110 50  0001 C CNN
-F 3 "" H 3620 7110 50  0001 C CNN
-	1    3620 7110
+P 3500 6960
+F 0 "#GND0104" H 3500 6710 50  0001 C CNN
+F 1 "GND" H 3420 6810 50  0000 L CNN
+F 2 "" H 3500 6960 50  0001 C CNN
+F 3 "" H 3500 6960 50  0001 C CNN
+	1    3500 6960
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3620 7110 3620 7030
+	3500 6960 3500 6880
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 62EE9ED2
-P 4300 7100
-F 0 "#FLG0102" H 4300 7175 50  0001 C CNN
-F 1 "PWR_FLAG" H 4300 7250 50  0000 C CNN
-F 2 "" H 4300 7100 50  0001 C CNN
-F 3 "~" H 4300 7100 50  0001 C CNN
-	1    4300 7100
+P 4180 6950
+F 0 "#FLG0102" H 4180 7025 50  0001 C CNN
+F 1 "PWR_FLAG" H 4180 7100 50  0000 C CNN
+F 2 "" H 4180 6950 50  0001 C CNN
+F 3 "~" H 4180 6950 50  0001 C CNN
+	1    4180 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VDD #PWR0112
 U 1 1 62EEE87D
-P 3980 7100
-F 0 "#PWR0112" H 3980 6950 50  0001 C CNN
-F 1 "VDD" H 3980 7250 50  0000 C CNN
-F 2 "" H 3980 7100 50  0001 C CNN
-F 3 "" H 3980 7100 50  0001 C CNN
-	1    3980 7100
+P 3860 6950
+F 0 "#PWR0112" H 3860 6800 50  0001 C CNN
+F 1 "VDD" H 3860 7100 50  0000 C CNN
+F 2 "" H 3860 6950 50  0001 C CNN
+F 3 "" H 3860 6950 50  0001 C CNN
+	1    3860 6950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3980 7100 3980 7150
+	3860 6950 3860 7000
 Wire Wire Line
-	3980 7150 4300 7150
+	3860 7000 4180 7000
 Wire Wire Line
-	4300 7150 4300 7100
+	4180 7000 4180 6950
 Text Notes 5640 7060 0    50   ~ 0
 Se adapta a varios tipos \nde Displays de 16 pines, \nmediante 18 pines de salida.
 Text Notes 2180 6430 0    50   ~ 0
